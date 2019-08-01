@@ -31,3 +31,8 @@ ifdef CONFIG_ESP_LYRAT_MINI_V1_1_BOARD
 COMPONENT_ADD_INCLUDEDIRS += ./lyrat_mini_v1_1
 COMPONENT_SRCDIRS += ./lyrat_mini_v1_1
 endif
+
+ifdef CONFIG_ESP32_MUSIC_BOX_BOARD
+COMPONENT_ADD_INCLUDEDIRS += ./esp32_music_box
+COMPONENT_SRCDIRS += ./esp32_music_box
+endif
